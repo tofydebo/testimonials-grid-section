@@ -89,7 +89,7 @@ p {
 @media only screen and (max-width: 600px) {
   .container {
     grid-template-columns: 1fr;
-  grid-template-rows:  400px 300px 300px 400px 450px ;
+  grid-template-rows:  350px 260px 260px 350px 420px ;
   grid-template-areas:
     "daniel"
     "jonathan"
