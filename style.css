@@ -89,8 +89,8 @@ p {
 @media only screen and (max-width: 600px) {
   .container {
     grid-template-columns: 1fr;
-  grid-template-rows:  350px 260px 260px 350px 420px ;
-  grid-template-areas:
+  grid-template-rows:  auto auto auto auto auto;
+grid-template-areas:
     "daniel"
     "jonathan"
     "jeanette"
@@ -98,5 +98,14 @@ p {
     "kira";
     padding: 15% 5%;
     grid-gap: 20px;
+
+.grid-bars {
+  border-radius: 7px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 } 
 }
