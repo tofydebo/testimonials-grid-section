@@ -88,7 +88,7 @@ p {
 
 @media only screen and (max-width: 600px) {
   .container {
-    grid-template-colums: 1fr;
+    grid-template-columns: 1fr;
   grid-template-rows: 1fr 0.4fr 0.4fr 0.8fr 1fr;
   grid-template-areas:
     "daniel"
@@ -99,4 +99,3 @@ p {
     padding: 10px 5px;
 } 
 }
-pa
