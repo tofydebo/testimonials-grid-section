@@ -37,7 +37,7 @@ grid-template-columns: 0.9fr 1fr 1fr 1.1fr; /*223px 210px 230px 247px;*/
   letter-spacing: 0.5px;
   word-wrap: break-word;
   font-weight: 500;
-  width: 100vw;
+  
   /*line-height: 17px;*/
 }
 
