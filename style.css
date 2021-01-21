@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans serif;
+  font-size: 13px;
+}
+
+.flex {
+  display: flex;
+  word-wrap: none;
+
+}
+
+.profile-name {
+  margin-left: 15px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.container {
+  background-color: hsl(210, 46%, 95%);
+  display: grid;
+grid-template-columns: 0.9fr 1fr 1fr 1.1fr; /*223px 210px 230px 247px;*/
+  grid-template-rows: 1.1fr 0.8fr;
+  grid-template-areas:
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+  grid-gap: 20px;
+  padding: 10% 10%;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 500;
+  width: 100vw;
+  /*line-height: 17px;*/
+}
+
+.grid-bars {
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#Daniel {
+  background-color: hsl(263, 55%, 52%);
+  grid-area: daniel;
+  color: hsl(0, 0%, 100%);
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 85% 0%;
+}
+
+#Jonathan {
+  background-color: hsl(217, 19%, 35%);
+  grid-area: jonathan;
+  color: hsl(0, 0%, 100%);
+}
+
+#Jeanette {
+  background-color: hsl(0, 0%, 100%);
+  grid-area: jeanette;
+  color: hsl(217, 19%, 35%);
+  filter: drop-shadow();
+}
+
+#Kira {
+  background-color: hsl(0, 0%, 100%);
+  grid-area: kira;
+  color: hsl(217, 19%, 35%);
+  filter: drop-shadow();
+}
+
+#Patrick {
+  background-color: hsl(219, 29%, 14%);
+  grid-area: patrick;
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.highlight {
+  font-size: 16px;
+  
+}
+
+.opacity1 {
+  opacity: 50%;
+}
+
+.opacity70 {
+  opacity: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  grid-template-rows:  auto auto auto auto auto;
+grid-template-areas:
+    "daniel"
+    "jonathan"
+    "jeanette"
+    "patrick"
+    "kira";
+    padding: 17% 7%;
+    grid-gap: 20px;
+
+.grid-bars {
+  border-radius: 7px;
+  padding-top:  15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+} 
