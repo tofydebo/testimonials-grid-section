@@ -32,7 +32,7 @@ header {
     "daniel daniel jonathan kira"
     "jeanette patrick patrick kira";
   grid-gap: 10px;
-  padding: 10%;
+  padding: 5% 10%;
   letter-spacing: 0.5px;
   word-wrap: break-word;
   font-weight: 500;
@@ -96,7 +96,7 @@ grid-template-areas:
     "jeanette"
     "patrick"
     "kira";
-    padding: 15% 5%;
+    padding: 17% 7%;
     grid-gap: 20px;
 
 .grid-bars {
