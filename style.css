@@ -110,6 +110,7 @@ grid-template-areas:
     "kira";
     padding: 17% 7%;
     grid-gap: 20px;
+    overflow-x: hidden;
   }
 .grid-bars {
   border-radius: 7px;
