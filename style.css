@@ -110,12 +110,13 @@ grid-template-areas:
     "kira";
     padding: 17% 7%;
     grid-gap: 20px;
-
+  }
 .grid-bars {
   border-radius: 7px;
   padding-top:  15px;
   padding-left: 15px;
   padding-right: 15px;
+ padding-bottom: 15px;
 }
 
 } 
